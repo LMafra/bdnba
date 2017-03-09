@@ -300,7 +300,7 @@ VALUES (66, 'Marcin Gortat','17-02-1984',211,109,5);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (67, 'Mike Budenholzer','06-80-1969',,,);
+VALUES (67, 'Mike Budenholzer','06-08-1969',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
 VALUES (68, 'Derrick Rose', '04-10-1988', 191, 86,1);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
@@ -355,7 +355,6 @@ INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posic
 VALUES (90, 'Nikola Vucevic','24-10-1990',213,118,5);
 
 
-Oeste
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
 VALUES (91, 'Quin Snyder','30-10-1966',,,);
@@ -496,75 +495,75 @@ VALUES (149, 'Zach Randolph','16-07-1981',206,118,4);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
 VALUES (150, 'Marc Gasol','29-01-1985',216,116,5);
 
-Warriors
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (151, 'Randy Wittman','28-10-1959',198,95);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (152, 'John Wall', '06-09-1990', 193, 95,1);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (153, 'Bradley Beal', '28-06-1993', 196, 94, 2);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (154, 'Jared Dudley','10-07-1985',201,102,3);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (155, 'Maybner Nene','13-09-1982',211,113,4);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (156, 'Marcin Gortat','17-02-1984',211,109,5);
 
-Clippers
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (157, 'Mike Budenholzer','06-80-1969',,,);
+VALUES (151, 'Steve Kerr','27-09-1965',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (158, 'Derrick Rose', '04-10-1988', 191, 86,1);
+VALUES (152, 'Stephen Curry', '14-03-1988', 191, 86,1);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (159, 'Jimmy Butler', '14-09-1989', 201, 105, 2);
+VALUES (153, 'Klay Thompson', '08-02-1990', 201, 98, 2);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (160, 'Nikola Mirotic','11-02-1991',208,108,3);
+VALUES (154, 'Harrison Barnes','30-05-1992',203,102,3);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (161, 'Taj Gibson','24-06-1985',206,107,4);
+VALUES (155, 'Draymond Green','04-05-1990',201,104,4);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (162, 'Pau Gasol','06-07-1980',213,113,5);
+VALUES (156, 'Andrew Bogut','28-11-1984',213,118,5);
 
-Lakers
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (73, 'Frank Vogel','21-06-1973',,,);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (74, 'Jeff Teague', '10-06-1988', 188, 84,1);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (75, 'Kyle Korver', '17-03-1981', 201, 96, 2);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (76, 'Kent Bazemore','01-07-1989',196,91,3);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (77, 'Paul Millsap','10-02-1985',203,112,4);
-INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (78, 'Al Horford','03-06-1986',208,111,5);
 
-Kings
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (79, 'Steven Clifford','17-09-1961',,,);
+VALUES (157, 'Doc Rivers','13-10-1961',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (80, 'Kemba Walker', '08-05-1990', 185, 83,1);
+VALUES (158, 'Chris Paul', '06-05-1985', 183, 79,1);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (81, 'Courtney Lee', '30-10-1985', 196, 91, 2);
+VALUES (159, 'J.J. Redick', '24-06-1984', 193, 86, 2);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (82, 'Nicolas Batum','14-12-1988',203,91,3);
+VALUES (160, 'Jeff Green','28-08-1986',206,107,3);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (83, 'Marvin Williams','19-06-1986',206,108,4);
+VALUES (161, 'Blake Griffin','16-03-1989',208,114,4);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (84, 'Al Jefferson','04-01-1985',208,131,5);
+VALUES (162, 'DeAndre Jordan','21-07-1988',211,120,5);
+
+
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (73, 'Byron Scott','28-03-1961',,,);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (74, 'DAngelo Russell', '23-02-1996', 196, 88,1);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (75, 'Jordan Clarkson', '07-06-1992', 196, 88, 2);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (76, 'Kobe Bryant','23-08-1978',198,96,3);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (77, 'Julius Randle','29-11-1994',206,113,4);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (78, 'Roy Hibbert','11-12-1986',218,122,5);
+
+
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (79, 'George Karl','12-05-1951',,,);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (80, 'Rajon Rondo', '22-02-1986', 185, 84,1);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (81, 'Ben McLemore', '11-02-1993', 196, 88, 2);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (82, 'Rudy Gay','17-08-1986',203,104,3);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (83, 'Willie Cauley-Stein','18-08-1993',213,109,4);
+INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
+VALUES (84, 'DeMarcus Cousins','13-08-1990',211,122,5);
 
 Suns
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (85, 'Scott Skiles','05-03-1964',,,);
+VALUES (85, 'Jeff Hornacek','03-05-1963',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (86, 'Elfrid Payton', '22-02-1994', 193, 84,1);
+VALUES (86, 'Eric Bledsoe', '09-12-1989', 185, 93,1);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (87, 'Victor Oladipo', '04-05-1992', 193, 95, 2);
+VALUES (87, 'Brandon Knight', '02-12-1991', 191, 88, 2);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (88, 'Evan Fournier','29-10-1992',201,93,3);
+VALUES (88, 'Devin Booker','30-10-1996',198,93,3);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (89, 'Aaron Gordon','16-09-1995',206,100,4);
+VALUES (89, 'P.J. Tucker','05-05-1985',198,111,4);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (90, 'Nikola Vucevic','24-10-1990',213,118,5);
+VALUES (90, 'Tyson Chandler','02-10-1982',216,109,5);
 
 
 
