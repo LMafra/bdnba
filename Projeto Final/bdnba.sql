@@ -551,7 +551,7 @@ VALUES (83, 'Willie Cauley-Stein','18-08-1993',213,109,4);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
 VALUES (84, 'DeMarcus Cousins','13-08-1990',211,122,5);
 
-Suns
+
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
 VALUES (85, 'Jeff Hornacek','03-05-1963',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
@@ -1177,6 +1177,18 @@ CREATE TABLE IF NOT EXISTS `mydb`.`TB_Pessoa_Premiacao` (
 ENGINE = InnoDB;
 
 
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (152,1);
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (124,2);
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (105,3);
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (120,4);
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (151,5);
+INSERT INTO TB_Pessoa_Premiacao(id_Pessoa, Cod_Premiacao)
+VALUES (34,6);
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
