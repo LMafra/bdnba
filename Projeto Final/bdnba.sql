@@ -749,6 +749,23 @@ CREATE TABLE IF NOT EXISTS `mydb`.`TB_Jogo` (
 ENGINE = InnoDB;
 
 
+
+INSERT INTO TB_Jogo(Cod_Jogo, Cod_Time_Casa, Cod_Time_Fora, Data_Jogo, Hora_Jogo, Pontuacao_Time_Casa, Pontuacao_Time_Fora, Estadio)
+VALUES (1,12,9,'27-10-2015', '20:00:00', 94, 106, 'Phillips Arena');
+
+INSERT INTO TB_Jogo(Cod_Jogo, Cod_Time_Casa, Cod_Time_Fora, Data_Jogo, Hora_Jogo, Pontuacao_Time_Casa, Pontuacao_Time_Fora, Estadio)
+VALUES (2,26,24,'31-10-2015', '19:30:00', 120, 134, 'Smoothie King Center');
+
+INSERT INTO TB_Jogo(Cod_Jogo, Cod_Time_Casa, Cod_Time_Fora, Data_Jogo, Hora_Jogo, Pontuacao_Time_Casa, Pontuacao_Time_Fora, Estadio)
+VALUES (3,22,25,'14-03-2016', '20:00:00', 130, 81, 'Toyota Center');
+
+INSERT INTO TB_Jogo(Cod_Jogo, Cod_Time_Casa, Cod_Time_Fora, Data_Jogo, Hora_Jogo, Pontuacao_Time_Casa, Pontuacao_Time_Fora, Estadio)
+VALUES (4,6,5,'31-03-2016', '19:00:00', 107, 87, 'Quicken Loans Arena');
+
+INSERT INTO TB_Jogo(Cod_Jogo, Cod_Time_Casa, Cod_Time_Fora, Data_Jogo, Hora_Jogo, Pontuacao_Time_Casa, Pontuacao_Time_Fora, Estadio)
+VALUES (5,19,17,'05-04-2016', '21:00:00', 102, 124, 'Pepsi Center');
+
+
 -- -----------------------------------------------------
 -- Table `mydb`.`TB_Premiacao`
 -- -----------------------------------------------------
@@ -1153,6 +1170,23 @@ CREATE TABLE IF NOT EXISTS `mydb`.`TB_Pessoa_joga_Jogo` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
+
+
+
+INSERT INTO TB_Pessoa_joga_Jogo(id_Pessoa, Cod_Jogo, Pontos, Rebotes, Tocos, Roubadas, Assistencias, Turnovers)
+VALUES (54,1, 18, 19, 2, 1, 3, 2);
+
+INSERT INTO TB_Pessoa_joga_Jogo(id_Pessoa, Cod_Jogo, Pontos, Rebotes, Tocos, Roubadas, Assistencias, Turnovers)
+VALUES (152,2,53,4,0,4,9,2);
+
+INSERT INTO TB_Pessoa_joga_Jogo(id_Pessoa, Cod_Jogo, Pontos, Rebotes, Tocos, Roubadas, Assistencias, Turnovers)
+VALUES (129,3,15,7,3,1,8,5);
+
+INSERT INTO TB_Pessoa_joga_Jogo(id_Pessoa, Cod_Jogo, Pontos, Rebotes, Tocos, Roubadas, Assistencias, Turnovers)
+VALUES (34,4,24,4,1,2,11,6);
+
+INSERT INTO TB_Pessoa_joga_Jogo(id_Pessoa, Cod_Jogo, Pontos, Rebotes, Tocos, Roubadas, Assistencias, Turnovers)
+VALUES (98,5,13,14,0,2,12,5);
 
 
 -- -----------------------------------------------------
