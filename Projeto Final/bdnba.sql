@@ -134,436 +134,429 @@ CREATE TABLE IF NOT EXISTS `mydb`.`TB_Pessoa` (
   `Data_Nasc` DATETIME NULL,
   `Altura` INT NULL,
   `Peso` INT NULL,
-  `Cod_Posicao` INT NULL,
   PRIMARY KEY (`id_Pessoa`),
-  INDEX `fk_TB_Pessoa_TB_Posicao1_idx` (`Cod_Posicao` ASC),
-  CONSTRAINT `fk_TB_Pessoa_TB_Posicao1`
-    FOREIGN KEY (`Cod_Posicao`)
-    REFERENCES `mydb`.`TB_Posicao` (`Cod_Posicao`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (1, 'Brad Stevens','22-10-1976',,,);
+VALUES (1, 'Brad Stevens','1976-10-22',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (2, 'Isaiah Thomas', '22-02-1989', 175, 84,1);
+VALUES (2, 'Isaiah Thomas', '1989-02-22', 175, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (3, 'Avery Bradley', '26-11-1990', 188, 82, 2);
+VALUES (3, 'Avery Bradley', '1990-11-26', 188, 82);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (4, 'Jae Crowder','06-07-1990',198,107,3);
+VALUES (4, 'Jae Crowder','1990-07-06',198,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (5, 'Amir Johnson','01-05-1987',206,109,4);
+VALUES (5, 'Amir Johnson','1987-05-01',206,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (6, 'Jared Sullinger','04-03-1992',206,118,5);
+VALUES (6, 'Jared Sullinger','1992-03-04',206,118);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (7, 'Dwane Casey','17-04-1957',,,);
+VALUES (7, 'Dwane Casey','1957-04-17',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (8, 'Kyle Lowry', '25-03-1986', 183, 93,1);
+VALUES (8, 'Kyle Lowry', '1986-03-25', 183, 93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (9, 'DeMar DeRozan', '07-08-1989', 201, 100, 2);
+VALUES (9, 'DeMar DeRozan', '1989-08-07', 201, 100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (10, 'DeMarre Carroll','27-07-1986',203,96,3);
+VALUES (10, 'DeMarre Carroll','1986-07-27',203,96);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (11, 'Patrick Patterson','14-03-1989',206,107,4);
+VALUES (11, 'Patrick Patterson','1989-03-14',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (12, 'Jonas Valanciunas','06-05-1992',213,116,5);
+VALUES (12, 'Jonas Valanciunas','1992-05-06',213,116);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (13, 'Derek Fisher','09-08-1974',,,);
+VALUES (13, 'Derek Fisher','1974-08-09',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (14, 'Jose Calderon', '28-09-1981', 191, 91,1);
+VALUES (14, 'Jose Calderon', '1981-09-28', 191, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (15, 'Arron Afflalo', '15-10-1985', 196, 95, 2);
+VALUES (15, 'Arron Afflalo', '1985-10-15', 196, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (16, 'Carmelo Anthony','29-05-1984',203,109,3);
+VALUES (16, 'Carmelo Anthony','1984-05-29',203,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (17, 'Kristaps Porzingis','02-08-1995',221,109,4);
+VALUES (17, 'Kristaps Porzingis','1995-08-02',221,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (18, 'Robin Lopez','01-04-1988',213,116,5);
+VALUES (18, 'Robin Lopez','1988-04-01',213,116);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (19, 'Brett Brown','16-02-1961',,,);
+VALUES (19, 'Brett Brown','1961-02-16',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (20, 'Isaiah Canaan', '29-07-1991', 183, 91,1);
+VALUES (20, 'Isaiah Canaan', '1991-07-29', 183, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (21, 'Nik Stauskas', '07-10-1993', 198, 93, 2);
+VALUES (21, 'Nik Stauskas', '1993-10-07', 198, 93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (22, 'Robert Covington','14-12-1990',206,98,3);
+VALUES (22, 'Robert Covington','1990-12-14',206,98);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (23, 'Nerlens Noel','10-04-1994',211,103,4);
+VALUES (23, 'Nerlens Noel','1994-04-10',211,103);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (24, 'Jahlil Okafor','15-12-1995',211,125,5);
+VALUES (24, 'Jahlil Okafor','1995-12-15',211,125);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (25, 'Lionel Hollins','19-10-1953',,,);
+VALUES (25, 'Lionel Hollins','1953-10-19',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (26, 'Donald Sloan', '15-01-1988', 191, 95,1);
+VALUES (26, 'Donald Sloan', '1988-01-15', 191, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (27, 'Wayne Ellington', '29-10-1987', 193, 91, 2);
+VALUES (27, 'Wayne Ellington', '1987-10-29', 193, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (28, 'Bojan Bogdanovic','18-04-1989',203,102,3);
+VALUES (28, 'Bojan Bogdanovic','1989-04-18',203,102);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (29, 'Thaddeus Young','21-06-1988',203,100,4);
+VALUES (29, 'Thaddeus Young','1988-06-21',203,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (30, 'Brook Lopez','01-04-1988',213,122,5);
+VALUES (30, 'Brook Lopez','1988-04-01',213,122);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (31, 'Tyronn Lue','03-05-1977',,,);
+VALUES (31, 'Tyronn Lue','1977-05-03',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (32, 'Kyrie Irving', '03-03-1992', 191, 88,1);
+VALUES (32, 'Kyrie Irving', '1992-03-03', 191, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (33, 'J.R. Smith', '09-09-1985', 198, 102, 2);
+VALUES (33, 'J.R. Smith', '1985-09-09', 198, 102);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (34, 'LeBron James','30-12-1984',203,113,3);
+VALUES (34, 'LeBron James','1984-12-30',203,113);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (35, 'Kevin Love','07-09-1988',208,114,4);
+VALUES (35, 'Kevin Love','1988-09-07',208,114);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (36, 'Tristan Thompson','13-03-1991',206,108,5);
+VALUES (36, 'Tristan Thompson','1991-03-13',206,108);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (37, 'Fred Hoiberg','15-10-1972',,,);
+VALUES (37, 'Fred Hoiberg','1972-10-15',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (38, 'Derrick Rose', '04-10-1988', 191, 86,1);
+VALUES (38, 'Derrick Rose', '1988-10-04', 191, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (39, 'Jimmy Butler', '14-09-1989', 201, 105, 2);
+VALUES (39, 'Jimmy Butler', '1989-09-14', 201, 105);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (40, 'Nikola Mirotic','11-02-1991',208,108,3);
+VALUES (40, 'Nikola Mirotic','1991-02-11',208,108);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (41, 'Taj Gibson','24-06-1985',206,107,4);
+VALUES (41, 'Taj Gibson','1985-06-24',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (42, 'Pau Gasol','06-07-1980',213,113,5);
+VALUES (42, 'Pau Gasol','1980-07-06',213,113);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (43, 'Frank Vogel','21-06-1973',,,);
+VALUES (43, 'Frank Vogel','1973-06-21',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (44, 'George Hill', '04-05-1986', 191, 85,1);
+VALUES (44, 'George Hill', '1986-05-04', 191, 85);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (45, 'Monta Ellis', '26-10-1985', 191, 84, 2);
+VALUES (45, 'Monta Ellis', '1985-10-26', 191, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (46, 'Paul George','02-05-1990',206,100,3);
+VALUES (46, 'Paul George','1990-05-02',206,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (47, 'Myles Turner','24-03-1996',211,110,4);
+VALUES (47, 'Myles Turner','1996-03-24',211,110);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (48, 'Ian Mahinmi','05-11-1986',211,119,5);
+VALUES (48, 'Ian Mahinmi','1986-11-05',211,119);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (49, 'Stan Van Gundy','26-08-1959',,,);
+VALUES (49, 'Stan Van Gundy','1959-08-26',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (50, 'Reggie Jackson', '16-04-1990', 191, 94,1);
+VALUES (50, 'Reggie Jackson', '1990-04-16', 191, 94);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (51, 'Kentavious Caldwell-Pope', '18-02-1993', 196, 93, 2);
+VALUES (51, 'Kentavious Caldwell-Pope', '1993-02-18', 196, 93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (52, 'Marcus Morris','02-09-1989',206,107,3);
+VALUES (52, 'Marcus Morris','1989-09-02',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (53, 'Tobias Harris','15-07-1992',206,107,4);
+VALUES (53, 'Tobias Harris','1992-07-15',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (54, 'Andre Drummond','10-08-1993',211,127,5);
+VALUES (54, 'Andre Drummond','1993-08-10',211,127);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (55, 'Jason Kidd','23-03-1973',,,);
+VALUES (55, 'Jason Kidd','1973-03-23',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (56, 'Michael Carter-Williams', '10-10-1991', 198, 86,1);
+VALUES (56, 'Michael Carter-Williams', '1991-10-10', 198, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (57, 'Khris Middleton', '12-08-1991', 203, 106, 2);
+VALUES (57, 'Khris Middleton', '1991-08-12', 203, 106);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (58, 'Giannis Antetokounmpo','06-12-1994',211,101,3);
+VALUES (58, 'Giannis Antetokounmpo','1994-12-06',211,101);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (59, 'Jabari Parker','15-03-1995',203,113,4);
+VALUES (59, 'Jabari Parker','1995-03-15',203,113);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (60, 'Greg Monroe','04-06-1990',211,120,5);
+VALUES (60, 'Greg Monroe','1990-06-04',211,120);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (61, 'Randy Wittman','28-10-1959',,,);
+VALUES (61, 'Randy Wittman','1959-10-28',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (62, 'John Wall', '06-09-1990', 193, 95,1);
+VALUES (62, 'John Wall', '1990-09-06', 193, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (63, 'Bradley Beal', '28-06-1993', 196, 94, 2);
+VALUES (63, 'Bradley Beal', '1993-06-28', 196, 94);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (64, 'Jared Dudley','10-07-1985',201,102,3);
+VALUES (64, 'Jared Dudley','1985-07-10',201,102);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (65, 'Maybner Nene','13-09-1982',211,113,4);
+VALUES (65, 'Maybner Nene','1982-09-13',211,113);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (66, 'Marcin Gortat','17-02-1984',211,109,5);
+VALUES (66, 'Marcin Gortat','1984-02-17',211,109);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (67, 'Mike Budenholzer','06-08-1969',,,);
+VALUES (67, 'Mike Budenholzer','1969-08-06',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (68, 'Derrick Rose', '04-10-1988', 191, 86,1);
+VALUES (68, 'Derrick Rose', '1988-10-04', 191, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (69, 'Jimmy Butler', '14-09-1989', 201, 105, 2);
+VALUES (69, 'Jimmy Butler', '1989-09-14', 201, 105);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (70, 'Nikola Mirotic','11-02-1991',208,108,3);
+VALUES (70, 'Nikola Mirotic','1991-02-11',208,108);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (71, 'Taj Gibson','24-06-1985',206,107,4);
+VALUES (71, 'Taj Gibson','1985-06-24',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (72, 'Pau Gasol','06-07-1980',213,113,5);
+VALUES (72, 'Pau Gasol','1980-07-06',213,113);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (73, 'Frank Vogel','21-06-1973',,,);
+VALUES (73, 'Frank Vogel','1973-06-21',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (74, 'Jeff Teague', '10-06-1988', 188, 84,1);
+VALUES (74, 'Jeff Teague', '1988-06-10', 188, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (75, 'Kyle Korver', '17-03-1981', 201, 96, 2);
+VALUES (75, 'Kyle Korver', '1981-03-17', 201, 96);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (76, 'Kent Bazemore','01-07-1989',196,91,3);
+VALUES (76, 'Kent Bazemore','1989-07-01',196,91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (77, 'Paul Millsap','10-02-1985',203,112,4);
+VALUES (77, 'Paul Millsap','1985-02-10',203,112);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (78, 'Al Horford','03-06-1986',208,111,5);
+VALUES (78, 'Al Horford','1986-06-03',208,111);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (79, 'Steven Clifford','17-09-1961',,,);
+VALUES (79, 'Steven Clifford','1961-09-17',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (80, 'Kemba Walker', '08-05-1990', 185, 83,1);
+VALUES (80, 'Kemba Walker', '1990-05-08', 185, 83);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (81, 'Courtney Lee', '30-10-1985', 196, 91, 2);
+VALUES (81, 'Courtney Lee', '1985-10-30', 196, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (82, 'Nicolas Batum','14-12-1988',203,91,3);
+VALUES (82, 'Nicolas Batum','1988-12-14',203,91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (83, 'Marvin Williams','19-06-1986',206,108,4);
+VALUES (83, 'Marvin Williams','1986-06-19',206,108);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (84, 'Al Jefferson','04-01-1985',208,131,5);
+VALUES (84, 'Al Jefferson','1985-01-04',208,131);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (85, 'Scott Skiles','05-03-1964',,,);
+VALUES (85, 'Scott Skiles','1964-03-05',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (86, 'Elfrid Payton', '22-02-1994', 193, 84,1);
+VALUES (86, 'Elfrid Payton', '1994-02-22', 193, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (87, 'Victor Oladipo', '04-05-1992', 193, 95, 2);
+VALUES (87, 'Victor Oladipo', '1992-05-04', 193, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (88, 'Evan Fournier','29-10-1992',201,93,3);
+VALUES (88, 'Evan Fournier','1992-10-29',201,93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (89, 'Aaron Gordon','16-09-1995',206,100,4);
+VALUES (89, 'Aaron Gordon','1995-09-16',206,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (90, 'Nikola Vucevic','24-10-1990',213,118,5);
+VALUES (90, 'Nikola Vucevic','1990-10-24',213,118);
 
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (91, 'Quin Snyder','30-10-1966',,,);
+VALUES (91, 'Quin Snyder','1966-10-30',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (92, 'Trey Burke', '12-11-1992', 185,87,1);
+VALUES (92, 'Trey Burke', '1992-11-12', 185,87);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (93, 'Rodney Hood', '20-10-1992',203,93,2);
+VALUES (93, 'Rodney Hood', '1992-10-20',203,93,2);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (94, 'Gordon Hayward','23-03-1990',203,103,3);
+VALUES (94, 'Gordon Hayward','1990-03-23',203,103);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (95, 'Derrick Favors','15-07-1991',208,120,4);
+VALUES (95, 'Derrick Favors','1991-07-15',208,120);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (96, 'Rudy Gobert','26-06-1992',216,111,5);
+VALUES (96, 'Rudy Gobert','1992-06-26',216,111);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (97, 'Billy Donovan','17-04-1957',,,);
+VALUES (97, 'Billy Donovan','1957-04-17',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (98, 'Russell Westbrook', '12-11-1988', 191, 91,1);
+VALUES (98, 'Russell Westbrook', '1988-11-12', 191, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (99, 'Andre Roberson', '04-12-1991', 201, 95, 2);
+VALUES (99, 'Andre Roberson', '1991-12-04', 201, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (100, 'Kevin Durant','29-09-1988',206,109,3);
+VALUES (100, 'Kevin Durant','1988-09-29',206,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (101, 'Serge Ibaka','18-09-1989',208,107,4);
+VALUES (101, 'Serge Ibaka','1989-09-18',208,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (102, 'Steven Adams','20-07-1993',213,116,5);
+VALUES (102, 'Steven Adams','1993-07-20',213,116);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (103, 'Terry Stotts','25-11-1957',,,);
+VALUES (103, 'Terry Stotts','1957-11-25',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (104, 'Damian Lillard', '15-07-1990', 191, 88,1);
+VALUES (104, 'Damian Lillard', '1990-07-15', 191, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (105, 'C.J. McCollum', '19-09-1991', 191, 86, 2);
+VALUES (105, 'C.J. McCollum', '1991-09-19', 191, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (106, 'Al-Farouq Aminu','21-09-1990',206,100,3);
+VALUES (106, 'Al-Farouq Aminu','1990-09-21',206,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (107, 'Maurice Harkless','11-05-1993',206,100,4);
+VALUES (107, 'Maurice Harkless','1993-05-11',206,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (108, 'Mason Plumlee','05-03-1990',211,116,5);
+VALUES (108, 'Mason Plumlee','1990-03-05',211,116);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (109, 'Michael Malone','01-01-1971',,,);
+VALUES (109, 'Michael Malone','1971-01-01',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (110, 'Emmanuel Mudiay', '05-03-1996', 196, 91,1);
+VALUES (110, 'Emmanuel Mudiay', '1996-03-05', 196, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (111, 'Gary Harris', '14-09-1994', 193, 95, 2);
+VALUES (111, 'Gary Harris', '1994-09-14', 193, 95);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (112, 'Danilo Gallininari','08-08-1988',208,102,3);
+VALUES (112, 'Danilo Gallininari','1988-08-08',208,102);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (113, 'Kenneth Faried','19-11-1989',203,103,4);
+VALUES (113, 'Kenneth Faried','1989-11-19',203,103);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (114, 'Nikola Jokic','19-02-1995',208,113,5);
+VALUES (114, 'Nikola Jokic','1995-02-19',208,113);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (115, 'Sam Mitchell','02-09-1963',,,);
+VALUES (115, 'Sam Mitchell','1963-09-02',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (116, 'Ricky Rubio', '21-10-1990', 193, 86,1);
+VALUES (116, 'Ricky Rubio', '1990-10-21', 193, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (117, 'Zach LaVine', '10-03-1995', 196, 84, 2);
+VALUES (117, 'Zach LaVine', '1995-03-10', 196, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (118, 'Andrew Wiggins','23-02-1995',203,90,3);
+VALUES (118, 'Andrew Wiggins','1995-02-23',203,90);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (119, 'Gorgui Dieng','18-01-1990',211,109,4);
+VALUES (119, 'Gorgui Dieng','1990-01-18',211,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (120, 'Karl Anthony-Towns','15-11-1995',213,111,5);
+VALUES (120, 'Karl Anthony-Towns','1995-11-15',213,111);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (121, 'Gregg Popovich','28-01-1948',,,);
+VALUES (121, 'Gregg Popovich','1948-01-28',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (122, 'Tony Parker', '17-05-1982', 188, 84,1);
+VALUES (122, 'Tony Parker', '1982-05-17', 188, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (123, 'Danny Green', '22-06-1987', 198, 98, 2);
+VALUES (123, 'Danny Green', '1987-06-22', 198, 98);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (124, 'Kawhi Leonard','29-06-1991',201,104,3);
+VALUES (124, 'Kawhi Leonard','1991-06-29',201,104);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (125, 'Tim Duncan','25-04-1976',211,113,4);
+VALUES (125, 'Tim Duncan','1976-04-25',211,113);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (126, 'LaMarcus Aldridge','19-07-1985',211,109,5);
+VALUES (126, 'LaMarcus Aldridge','1985-07-19',211,109);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (127, 'J.B. Bickerstaff','10-03-1979',,,);
+VALUES (127, 'J.B. Bickerstaff','1979-03-10',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (128, 'Patrick Beverley', '12-07-1988', 185, 84,1);
+VALUES (128, 'Patrick Beverley', '1988-07-12', 185, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (129, 'James Harden', '26-08-1989', 196, 100, 2);
+VALUES (129, 'James Harden', '1989-08-26', 196, 100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (130, 'Trevor Ariza','30-06-1985',203,98,3);
+VALUES (130, 'Trevor Ariza','1985-06-30',203,98);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (131, 'Donatas Motiejunas','20-09-1990',213,101,4);
+VALUES (131, 'Donatas Motiejunas','1990-09-20',213,101);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (132, 'Dwight Howard','08-12-1985',211,120,5);
+VALUES (132, 'Dwight Howard','1985-12-08',211,120);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (133, 'Rick Carlisle','27-10-1959',,,);
+VALUES (133, 'Rick Carlisle','1959-10-27',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (134, 'Deron Williams', '26-06-1984', 191, 91,1);
+VALUES (134, 'Deron Williams', '1984-06-26', 191, 91);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (135, 'Wesley Matthews', '14-10-1986', 196, 100, 2);
+VALUES (135, 'Wesley Matthews', '1986-10-14', 196, 100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (136, 'Justin Anderson','19-11-1993',198,103,3);
+VALUES (136, 'Justin Anderson','1993-11-19',198,103);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (137, 'Dirk Nowitzki','19-06-1978',213,111,4);
+VALUES (137, 'Dirk Nowitzki','1978-06-19',213,111);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (138, 'Zaza Pachulia','10-02-1984',211,125,5);
+VALUES (138, 'Zaza Pachulia','1984-02-10',211,125);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (139, 'Alvin Gentry','05-11-1954',,,);
+VALUES (139, 'Alvin Gentry','1954-11-05',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (140, 'Jrue Holiday', '12-06-1990', 193, 93,1);
+VALUES (140, 'Jrue Holiday', '1990-06-12', 193, 93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (141, 'Eric Gordon', '25-12-1988', 193, 98, 2);
+VALUES (141, 'Eric Gordon', '1988-12-25', 193, 98);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (142, 'Tyreke Evans','19-09-1989',198,100,3);
+VALUES (142, 'Tyreke Evans','1989-09-19',198,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (143, 'Ryan Anderson','06-05-1988',208,109,4);
+VALUES (143, 'Ryan Anderson','1988-05-06',208,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (144, 'Anthony Davis','11-03-1993',211,115,5);
+VALUES (144, 'Anthony Davis','1993-03-11',211,115);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (145, 'Dave Joerger','21-02-1974',193,95,);
+VALUES (145, 'Dave Joerger','1974-02-21',193,95,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (146, 'Mike Conley', '11-10-1987', 185, 79,1);
+VALUES (146, 'Mike Conley', '1987-10-11', 185, 79);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (147, 'Tony Allen', '11-01-1982', 193, 97, 2);
+VALUES (147, 'Tony Allen', '1982-01-11', 193, 97);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (148, 'Vince Carter','26-01-1977',198,100,3);
+VALUES (148, 'Vince Carter','1977-01-26',198,100);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (149, 'Zach Randolph','16-07-1981',206,118,4);
+VALUES (149, 'Zach Randolph','1981-07-16',206,118);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (150, 'Marc Gasol','29-01-1985',216,116,5);
+VALUES (150, 'Marc Gasol','1985-01-29',216,116);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (151, 'Steve Kerr','27-09-1965',,,);
+VALUES (151, 'Steve Kerr','1965-09-27',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (152, 'Stephen Curry', '14-03-1988', 191, 86,1);
+VALUES (152, 'Stephen Curry', '1988-03-14', 191, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (153, 'Klay Thompson', '08-02-1990', 201, 98, 2);
+VALUES (153, 'Klay Thompson', '1990-02-08', 201, 98);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (154, 'Harrison Barnes','30-05-1992',203,102,3);
+VALUES (154, 'Harrison Barnes','1992-05-30',203,102);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (155, 'Draymond Green','04-05-1990',201,104,4);
+VALUES (155, 'Draymond Green','1990-05-04',201,104);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (156, 'Andrew Bogut','28-11-1984',213,118,5);
+VALUES (156, 'Andrew Bogut','1984-11-28',213,118);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (157, 'Doc Rivers','13-10-1961',,,);
+VALUES (157, 'Doc Rivers','1961-10-13',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (158, 'Chris Paul', '06-05-1985', 183, 79,1);
+VALUES (158, 'Chris Paul', '1985-05-06', 183, 79);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (159, 'J.J. Redick', '24-06-1984', 193, 86, 2);
+VALUES (159, 'J.J. Redick', '1984-06-24', 193, 86);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (160, 'Jeff Green','28-08-1986',206,107,3);
+VALUES (160, 'Jeff Green','1986-08-28',206,107);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (161, 'Blake Griffin','16-03-1989',208,114,4);
+VALUES (161, 'Blake Griffin','1989-03-16',208,114);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (162, 'DeAndre Jordan','21-07-1988',211,120,5);
+VALUES (162, 'DeAndre Jordan','1988-07-21',211,120);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (73, 'Byron Scott','28-03-1961',,,);
+VALUES (73, 'Byron Scott','1961-03-28',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (74, 'DAngelo Russell', '23-02-1996', 196, 88,1);
+VALUES (74, 'DAngelo Russell', '1996-02-23', 196, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (75, 'Jordan Clarkson', '07-06-1992', 196, 88, 2);
+VALUES (75, 'Jordan Clarkson', '1992-06-07', 196, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (76, 'Kobe Bryant','23-08-1978',198,96,3);
+VALUES (76, 'Kobe Bryant','1978-08-23',198,96);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (77, 'Julius Randle','29-11-1994',206,113,4);
+VALUES (77, 'Julius Randle','1994-11-29',206,113);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (78, 'Roy Hibbert','11-12-1986',218,122,5);
+VALUES (78, 'Roy Hibbert','1986-12-11',218,122);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (79, 'George Karl','12-05-1951',,,);
+VALUES (79, 'George Karl','1951-05-12',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (80, 'Rajon Rondo', '22-02-1986', 185, 84,1);
+VALUES (80, 'Rajon Rondo', '1986-02-22', 185, 84);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (81, 'Ben McLemore', '11-02-1993', 196, 88, 2);
+VALUES (81, 'Ben McLemore', '1993-02-11', 196, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (82, 'Rudy Gay','17-08-1986',203,104,3);
+VALUES (82, 'Rudy Gay','1986-08-17',203,104);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (83, 'Willie Cauley-Stein','18-08-1993',213,109,4);
+VALUES (83, 'Willie Cauley-Stein','1993-08-18',213,109);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (84, 'DeMarcus Cousins','13-08-1990',211,122,5);
+VALUES (84, 'DeMarcus Cousins','1990-08-13',211,122);
 
 
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (85, 'Jeff Hornacek','03-05-1963',,,);
+VALUES (85, 'Jeff Hornacek','1963-05-03',,,);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (86, 'Eric Bledsoe', '09-12-1989', 185, 93,1);
+VALUES (86, 'Eric Bledsoe', '1989-12-09', 185, 93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (87, 'Brandon Knight', '02-12-1991', 191, 88, 2);
+VALUES (87, 'Brandon Knight', '1991-12-02', 191, 88);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (88, 'Devin Booker','30-10-1996',198,93,3);
+VALUES (88, 'Devin Booker','1996-10-30',198,93);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (89, 'P.J. Tucker','05-05-1985',198,111,4);
+VALUES (89, 'P.J. Tucker','1985-05-05',198,111);
 INSERT INTO TB_Pessoa(id_Pessoa, Nome_Pessoa, Data_Nasc, Altura, Peso, Cod_Posicao)
-VALUES (90, 'Tyson Chandler','02-10-1982',216,109,5);
+VALUES (90, 'Tyson Chandler','1982-10-02',216,109);
 
 
 
@@ -795,9 +788,11 @@ VALUES (6, 'Finals MVP');
 CREATE TABLE IF NOT EXISTS `mydb`.`TB_Time_Jogador` (
   `Cod_Time` INT NOT NULL,
   `id_Jogador` INT NOT NULL,
+  `Cod_Posicao` INT NULL,
   PRIMARY KEY (`Cod_Time`, `id_Jogador`),
   INDEX `fk_TB_Time_has_TB_Pessoa_TB_Pessoa1_idx` (`id_Jogador` ASC),
   INDEX `fk_TB_Time_has_TB_Pessoa_TB_Time1_idx` (`Cod_Time` ASC),
+  INDEX `fk_TB_Pessoa_TB_Posicao1_idx` (`Cod_Posicao` ASC),
   CONSTRAINT `fk_TB_Time_has_TB_Pessoa_TB_Time1`
     FOREIGN KEY (`Cod_Time`)
     REFERENCES `mydb`.`TB_Time` (`Cod_Time`)
@@ -808,338 +803,343 @@ CREATE TABLE IF NOT EXISTS `mydb`.`TB_Time_Jogador` (
     REFERENCES `mydb`.`TB_Pessoa` (`id_Pessoa`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
+  CONSTRAINT `fk_TB_Pessoa_TB_Posicao1`
+    FOREIGN KEY (`Cod_Posicao`)
+    REFERENCES `mydb`.`TB_Posicao` (`Cod_Posicao`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(1,2);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(1,3);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(1,4);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(1,5);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(1,6);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(1,2,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(1,3,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(1,4,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(1,5,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(1,6,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(2,8);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(2,9);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(2,10);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(2,11);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(2,12);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(2,8,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(2,9,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(2,10,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(2,11,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(2,12,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(3,14);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(3,15);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(3,16);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(3,17);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(3,18);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(3,14,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(3,15,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(3,16,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(3,17,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(3,18,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(4,20);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(4,21);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(4,22);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(4,23);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(4,24);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(4,20,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(4,21,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(4,22,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(4,23,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(4,24,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(5,26);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(5,27);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(5,28);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(5,29);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(5,30);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(5,26,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(5,27,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(5,28,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(5,29,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(5,30,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(6,32);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(6,33);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(6,34);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(6,35);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(6,36);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(6,32,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(6,33,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(6,34,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(6,35,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(6,36,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(7,38);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(7,39);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(7,40);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(7,41);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(7,42);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(7,38,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(7,39,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(7,40,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(7,41,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(7,42,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(8,44);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(8,45);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(8,46);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(8,47);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(8,48);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(8,44,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(8,45,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(8,46,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(8,47,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(8,48,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(9,50);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(9,51);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(9,52);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(9,53);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(9,54);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(9,50,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(9,51,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(9,52,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(9,53,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(9,54,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(10,56);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(10,57);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(10,58);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(10,59);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(10,60);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(10,56,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(10,57,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(10,58,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(10,59,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(10,60,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(11,62);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(11,63);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(11,64);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(11,65);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(11,66);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(11,62,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(11,63,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(11,64,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(11,65,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(11,66,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(12,68);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(12,69);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(12,70);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(12,71);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(12,72);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(12,68,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(12,69,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(12,70,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(12,71,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(12,72,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(13,74);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(13,75);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(13,76);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(13,77);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(13,78);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(13,74,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(13,75,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(13,76,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(13,77,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(13,78,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(14,80);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(14,81);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(14,82);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(14,83);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(14,84);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(14,80,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(14,81,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(14,82,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(14,83,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(14,84,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(15,86);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(15,87);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(15,88);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(15,89);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(15,90);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(15,86,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(15,87,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(15,88,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(15,89,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(15,90,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(16,92);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(16,93);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(16,94);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(16,95);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(16,96);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(16,92,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(16,93,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(16,94,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(16,95,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(16,96,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(17,98);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(17,99);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(17,100);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(17,101);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(17,102);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(17,98,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(17,99,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(17,100,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(17,101,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(17,102,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(18,104);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(18,105);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(18,106);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(18,107);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(18,108);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(18,104,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(18,105,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(18,106,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(18,107,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(18,108,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(19,110);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(19,111);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(19,112);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(19,113);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(19,114);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(19,110,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(19,111,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(19,112,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(19,113,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(19,114,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(20,116);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(20,117);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(20,118);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(20,119);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(20,120);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(20,116,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(20,117,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(20,118,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(20,119,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(20,120,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(21,122);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(21,123);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(21,124);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(21,125);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(21,126);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(21,122,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(21,123,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(21,124,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(21,125,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(21,126,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(22,128);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(22,129);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(22,130);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(22,131);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(22,132);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(22,128,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(22,129,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(22,130,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(22,131,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(22,132,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(23,134);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(23,135);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(23,136);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(23,137);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(23,138);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(23,134,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(23,135,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(23,136,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(23,137,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(23,138,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(24,140);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(24,141);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(24,142);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(24,143);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(24,144);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(24,140,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(24,141,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(24,142,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(24,143,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(24,144,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(25,146);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(25,147);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(25,148);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(25,149);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(25,150);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(25,146,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(25,147,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(25,148,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(25,149,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(25,150,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(26,152);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(26,153);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(26,154);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(26,155);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(26,156);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(26,152,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(26,153,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(26,154,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(26,155,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(26,156,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(27,158);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(27,159);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(27,160);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(27,161);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(27,162);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(27,158,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(27,159,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(27,160,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(27,161,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(27,162,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(28,164);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(28,165);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(28,166);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(28,167);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(28,168);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(28,164,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(28,165,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(28,166,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(28,167,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(28,168,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(29,170);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(29,171);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(29,172);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(29,173);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(29,174);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(29,170,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(29,171,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(29,172,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(29,173,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(29,174,5);
 
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(30,176);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(30,177);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(30,178);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(30,179);
-INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador)
-VALUES(30,180);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(30,176,1);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(30,177,2);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(30,178,3);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(30,179,4);
+INSERT INTO TB_Time_Jogador(Cod_Time, id_Jogador, Cod_Posicao)
+VALUES(30,180,5);
 
 
 
